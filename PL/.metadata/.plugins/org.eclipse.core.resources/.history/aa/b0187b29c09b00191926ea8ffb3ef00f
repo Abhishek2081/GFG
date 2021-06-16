@@ -1,0 +1,58 @@
+/*
+ ============================================================================
+Roll no.:21103
+Name:Abhishek Agashe
+Class:SE-9
+Batch:E-9
+Problem Statement:
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    int c,m=0,n=0,i=0;
+	int set1[m],set2[n],un[100];
+
+    printf("Enter Size of Set 1");
+    scanf("%d",&m);
+    printf("Enter Size of Set 2");
+    scanf("%d",&n);
+
+    printf("Enter Elements Of Set A");
+    for(i=0;i<m;i++)
+    {
+      scanf("%d",&set1[i]);
+    }
+
+    printf("Enter Elements Of Set B");
+    for(i=0;i<n;i++)
+    {
+      scanf("%d",&set2[i]);
+    }
+
+    printf("Enter Your Choice");
+    scanf("%d",&c);
+    switch(c)
+    {
+       case 1: printf("Union");
+
+       case 2: printf("Intersection");
+
+       case 3: printf("Difference");
+
+       case 4: printf("Symmetric Difference");
+
+       case 5: printf("Exit");
+               break;
+
+
+    default: printf("Enter Correct Choice");
+             break;
+    }
+
+
+	return EXIT_SUCCESS;
+}

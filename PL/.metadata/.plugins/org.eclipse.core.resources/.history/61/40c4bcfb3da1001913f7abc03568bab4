@@ -1,0 +1,89 @@
+/*
+ ============================================================================
+Roll no.:23103
+Name:Abhishek Agashe
+Class:SE-9
+Batch:E-9
+Problem Statement:
+ ============================================================================
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(void)
+{
+	int mat1[10][10],mat2[10][10],r1,r2,c1,c2,c;
+	int mat3[10][10],r3,c3;
+
+    do
+    {
+	printf("Enter Your Choice"
+    		"1.Addition\n"
+		    "2.Subtraction\n"
+    		"3.Multiplication\n"
+    		"4.Division\n"
+    		"5.Exit\n");
+
+    scanf("%d",&c);
+
+    switch(c)
+    {
+       case 1:
+    	      printf("Enter Size of Set\n");
+    	      scanf("%d",&m);
+    	      input(set1,m);
+    	      printf("Enter Size of Set\n");
+    	      scanf("%d",&n);
+              input(set2,n);
+              break;
+
+       case 2: display(set1,m);
+               display(set2,n);
+               break;
+
+       case 3: k=Union(set1,set2,set3,m,n);
+               display(set3,k);
+               break;
+
+       case 4: k=Intersection(set1,set2,set3,m,n);
+               display(set3,k);
+               break;
+
+       case 5: break;
+
+       default: printf("Enter Correct Choice");
+                break;
+    }
+    printf("\nDo u wanna continue?(1/0)");
+    scanf("%d",&c);
+    }while(c==1);
+
+
+	return EXIT_SUCCESS;
+}
+
+void input(int set1[],int m)
+{
+   int i;
+
+
+   printf("Enter Elements Of Set\n");
+    for(i=0;i<m;i++)
+     {
+        scanf("%d",&set1[i]);
+     }
+
+ }
+
+void display(int set1[],int m)
+{
+	int i;
+
+	printf("\nSet is\n");
+	for(i=0;i<m;i++)
+	{
+		printf("%d\t",set1[i]);
+	}
+
+ }

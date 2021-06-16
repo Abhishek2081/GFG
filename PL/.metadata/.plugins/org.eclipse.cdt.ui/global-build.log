@@ -1,0 +1,1168 @@
+09:20:00 **** Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+09:20:17 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:14:14 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:16:14: error: ‘m’ undeclared (first use in this function)
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+     int set1[m],set2[n],un[100];
+              ^
+../src/first.c:16:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/first.c:16:22: error: ‘n’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:21:5: warning: implicit declaration of function ‘Printf’ [-Wimplicit-function-declaration]
+     Printf("Enter Size of Set 2");
+     ^
+../src/first.c:17:12: warning: unused variable ‘i’ [-Wunused-variable]
+     int ch,i;
+            ^
+../src/first.c:16:25: warning: unused variable ‘un’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                         ^
+../src/first.c:16:17: warning: unused variable ‘set2’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                 ^
+../src/first.c:16:9: warning: unused variable ‘set1’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+         ^
+../src/first.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&ch);
+     ^
+make: *** [src/first.o] Error 1
+10:16:14 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:16:14: error: ‘m’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+              ^
+../src/first.c:16:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/first.c:16:22: error: ‘n’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+                      ^
+../src/first.c:25:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf("%d",ch);
+           ^
+../src/first.c:16:25: warning: unused variable ‘un’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                         ^
+../src/first.c:16:17: warning: unused variable ‘set2’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                 ^
+../src/first.c:16:9: warning: unused variable ‘set1’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+         ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",ch);
+     ^
+make: *** [src/first.o] Error 1
+10:19:50 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:16:14: error: ‘m’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+              ^
+../src/first.c:16:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/first.c:16:22: error: ‘n’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+                      ^
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+../src/first.c:25:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf("%d",ch);
+           ^
+../src/first.c:16:25: warning: unused variable ‘un’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                         ^
+../src/first.c:16:17: warning: unused variable ‘set2’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                 ^
+../src/first.c:16:9: warning: unused variable ‘set1’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+         ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",ch);
+     ^
+make: *** [src/first.o] Error 1
+10:19:56 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:16:14: error: ‘m’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+              ^
+../src/first.c:16:14: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+../src/first.c:16:22: error: ‘n’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:25:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf("%d",ch);
+           ^
+../src/first.c:16:25: warning: unused variable ‘un’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                         ^
+../src/first.c:16:17: warning: unused variable ‘set2’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                 ^
+../src/first.c:16:9: warning: unused variable ‘set1’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+         ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",ch);
+     ^
+make: *** [src/first.o] Error 1
+10:20:01 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:16:14: error: ‘m’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+              ^
+../src/first.c:16:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/first.c:16:22: error: ‘n’ undeclared (first use in this function)
+     int set1[m],set2[n],un[100];
+                      ^
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+../src/first.c:25:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf("%d",ch);
+           ^
+../src/first.c:16:25: warning: unused variable ‘un’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                         ^
+../src/first.c:16:17: warning: unused variable ‘set2’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+                 ^
+../src/first.c:16:9: warning: unused variable ‘set1’ [-Wunused-variable]
+     int set1[m],set2[n],un[100];
+         ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",ch);
+     ^
+make: *** [src/first.o] Error 1
+10:21:28 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:25:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf("%d",ch);
+           ^
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:17:14: warning: unused variable ‘set2’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+              ^
+../src/first.c:17:6: warning: unused variable ‘set1’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",ch);
+     ^
+../src/first.c:25:5: warning: ‘ch’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:24:30 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:24:48 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:29:39 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:27:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set1[i]);
+             ^
+../src/first.c:33:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set2[i]);
+             ^
+../src/first.c:37:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf("%d",ch);
+           ^
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set2[i]);
+       ^
+../src/first.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",ch);
+     ^
+../src/first.c:37:5: warning: ‘ch’ is used uninitialized in this function [-Wuninitialized]
+../src/first.c:17:2: warning: ‘m’ is used uninitialized in this function [-Wuninitialized]
+  int set1[m],set2[n],un[100];
+  ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:31:28 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:27:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set1[i]);
+             ^
+../src/first.c:33:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set2[i]);
+             ^
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set2[i]);
+       ^
+../src/first.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&ch);
+     ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:36:54 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:37:03 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:37:40 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:27:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set1[i]);
+             ^
+../src/first.c:33:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set2[i]);
+             ^
+../src/first.c:37:17: error: ‘ch’ undeclared (first use in this function)
+     scanf("%d",&ch);
+                 ^
+../src/first.c:37:17: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set2[i]);
+       ^
+make: *** [src/first.o] Error 1
+10:38:23 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:27:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set1[i]);
+             ^
+../src/first.c:33:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+       scanf("%d",set2[i]);
+             ^
+../src/first.c:37:17: error: ‘ch’ undeclared (first use in this function)
+     scanf("%d",&ch);
+                 ^
+../src/first.c:37:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set2[i]);
+       ^
+make: *** [src/first.o] Error 1
+10:39:51 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:27:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set1[i]);
+             ^
+../src/first.c:33:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+       scanf("%d",set2[i]);
+             ^
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",set2[i]);
+       ^
+../src/first.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:44:15 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",&set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",&set2[i]);
+       ^
+../src/first.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:45:36 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:47:59 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",&set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",&set2[i]);
+       ^
+../src/first.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:50:21 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:50:57 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:51:05 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:51:08 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:52:08 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:17:22: warning: unused variable ‘un’ [-Wunused-variable]
+  int set1[m],set2[n],un[100];
+                      ^
+../src/first.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&m);
+     ^
+../src/first.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&n);
+     ^
+../src/first.c:27:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",&set1[i]);
+       ^
+../src/first.c:33:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+       scanf("%d",&set2[i]);
+       ^
+../src/first.c:42:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:08:40 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+../src/first.c: In function ‘main’:
+../src/first.c:92:2: warning: ‘k’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  for(i=0;i<m;i++)
+  ^
+../src/first.c:152:20: note: ‘k’ was declared here
+     int i,j,flag=0,k;
+                    ^
+../src/first.c:92:2: warning: ‘k’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  for(i=0;i<m;i++)
+  ^
+../src/first.c:130:20: note: ‘k’ was declared here
+     int i,j,flag=0,k;
+                    ^
+../src/first.c: In function ‘Intersection’:
+../src/first.c:147:12: warning: ‘k’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return k;
+            ^
+../src/first.c: In function ‘difference’:
+../src/first.c:169:12: warning: ‘k’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return k;
+            ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:10:54 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘Union’:
+../src/first.c:104:14: error: ‘k’ undeclared (first use in this function)
+         set3[k]=set1[i];
+              ^
+../src/first.c:104:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/first.c: In function ‘Intersection’:
+../src/first.c:143:13: error: ‘k’ undeclared (first use in this function)
+        set3[k]=set1[i];
+             ^
+../src/first.c: In function ‘difference’:
+../src/first.c:165:13: error: ‘k’ undeclared (first use in this function)
+        set3[k]=set1[i]-set2[j];
+             ^
+../src/first.c: In function ‘symdifference’:
+../src/first.c:177:14: error: ‘k’ undeclared (first use in this function)
+         set3[k]=set1[i];
+              ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+../src/first.c: In function ‘Union’:
+../src/first.c:126:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/first.c: In function ‘Intersection’:
+../src/first.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/first.c: In function ‘difference’:
+../src/first.c:170:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/first.c: In function ‘symdifference’:
+../src/first.c:199:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/first.o] Error 1
+10:11:50 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:15:30 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:15:32 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:20:26 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:22:25 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+src/subdir.mk:18: recipe for target 'src/first.o' failed
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘symdifference’:
+../src/first.c:197:8: error: expected ‘;’ before ‘k’
+        k++;
+        ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+make: *** [src/first.o] Error 1
+10:22:47 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:22:50 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:23:40 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:23:43 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:24:37 **** Incremental Build of configuration Release for project first ****
+make all 
+Building file: ../src/first.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/first.d" -MT"src/first.o" -o "src/first.o" "../src/first.c"
+../src/first.c: In function ‘main’:
+../src/first.c:37:12: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+            input(set1,m);
+            ^
+../src/first.c:43:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/first.c:47:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/first.c:51:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/first.c:55:18: warning: implicit declaration of function ‘difference’ [-Wimplicit-function-declaration]
+        case 5: k=difference(set1,set2,set3,m,n);
+                  ^
+../src/first.c: At top level:
+../src/first.c:74:6: warning: conflicting types for ‘input’
+ void input(int set1[],int m)
+      ^
+../src/first.c:37:12: note: previous implicit declaration of ‘input’ was here
+            input(set1,m);
+            ^
+../src/first.c:87:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/first.c:43:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+../src/first.c: In function ‘main’:
+../src/first.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c:36:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&m);
+            ^
+../src/first.c:39:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+            scanf("%d",&n);
+            ^
+../src/first.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d",&c);
+     ^
+../src/first.c: In function ‘input’:
+../src/first.c:82:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%d",&set1[i]);
+         ^
+Finished building: ../src/first.c
+ 
+Building target: first
+Invoking: GCC C Linker
+gcc  -o "first"  ./src/first.o   
+Finished building target: first
+ 
+10:24:41 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:40:32 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:40:33 **** Build of configuration Debug for project second ****
+make all 
+Building file: ../src/second.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/second.d" -MT"src/second.o" -o "src/second.o" "../src/second.c"
+../src/second.c: In function ‘main’:
+../src/second.c:48:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(set1,m);
+                ^
+../src/second.c:48:24: error: ‘set1’ undeclared (first use in this function)
+        case 2: display(set1,m);
+                        ^
+../src/second.c:48:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/second.c:48:29: error: ‘m’ undeclared (first use in this function)
+        case 2: display(set1,m);
+                             ^
+../src/second.c:49:24: error: ‘set2’ undeclared (first use in this function)
+                display(set2,n);
+                        ^
+../src/second.c:49:29: error: ‘n’ undeclared (first use in this function)
+src/subdir.mk:18: recipe for target 'src/second.o' failed
+                display(set2,n);
+                             ^
+../src/second.c:52:16: error: ‘k’ undeclared (first use in this function)
+        case 3: k=Union(set1,set2,set3,m,n);
+                ^
+../src/second.c:52:18: warning: implicit declaration of function ‘Union’ [-Wimplicit-function-declaration]
+        case 3: k=Union(set1,set2,set3,m,n);
+                  ^
+../src/second.c:52:34: error: ‘set3’ undeclared (first use in this function)
+        case 3: k=Union(set1,set2,set3,m,n);
+                                  ^
+../src/second.c:56:18: warning: implicit declaration of function ‘Intersection’ [-Wimplicit-function-declaration]
+        case 4: k=Intersection(set1,set2,set3,m,n);
+                  ^
+../src/second.c:17:22: warning: unused variable ‘c3’ [-Wunused-variable]
+  int mat3[10][10],r3,c3;
+                      ^
+../src/second.c:17:19: warning: unused variable ‘r3’ [-Wunused-variable]
+  int mat3[10][10],r3,c3;
+                   ^
+../src/second.c:17:6: warning: unused variable ‘mat3’ [-Wunused-variable]
+  int mat3[10][10],r3,c3;
+      ^
+../src/second.c:16:19: warning: unused variable ‘mat2’ [-Wunused-variable]
+  int mat1[10][10],mat2[10][10],r1,r2,c1,c2,c;
+                   ^
+../src/second.c:16:6: warning: unused variable ‘mat1’ [-Wunused-variable]
+  int mat1[10][10],mat2[10][10],r1,r2,c1,c2,c;
+      ^
+../src/second.c: At top level:
+../src/second.c:86:6: warning: conflicting types for ‘display’
+ void display(int set1[],int m)
+      ^
+../src/second.c:48:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(set1,m);
+                ^
+make: *** [src/second.o] Error 1
+10:55:40 **** Incremental Build of configuration Release for project first ****
+make all 
+make: Nothing to be done for 'all'.
+10:55:41 **** Incremental Build of configuration Debug for project second ****
+make all 
+Building file: ../src/second.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/second.d" -MT"src/second.o" -o "src/second.o" "../src/second.c"
+../src/second.c: In function ‘main’:
+../src/second.c:44:16: warning: implicit declaration of function ‘input’ [-Wimplicit-function-declaration]
+        case 1: input(mat1,r1,c1);
+                ^
+../src/second.c:48:16: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+        case 2: display(mat1,r1,c1);
+                ^
+../src/second.c:52:16: warning: implicit declaration of function ‘add’ [-Wimplicit-function-declaration]
+        case 3: add(mat1,mat2,r1,c1,r2,c2);
+                ^
+../src/second.c: At top level:
+../src/second.c:68:6: warning: conflicting types for ‘input’
+ void input(int mat1[][10],int r1,int c1)
+      ^
+../src/second.c:44:16: note: previous implicit declaration of ‘input’ was here
+        case 1: input(mat1,r1,c1);
+                ^
+../src/second.c:82:6: warning: conflicting types for ‘display’
+ void display(int mat1[][10],int r1,int c1)
+      ^
+../src/second.c:48:16: note: previous implicit declaration of ‘display’ was here
+        case 2: display(mat1,r1,c1);
+                ^
+../src/second.c:97:6: warning: conflicting types for ‘add’
+ void add(int mat1[][10],int mat2[][10],int mat3[][10],int r1,int c1,int r2,int c2,int r3,int c3)
+      ^
+../src/second.c:52:16: note: previous implicit declaration of ‘add’ was here
+        case 3: add(mat1,mat2,r1,c1,r2,c2);
+                ^
+../src/second.c: In function ‘main’:
+../src/second.c:53:16: warning: ‘r3’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                display(mat3,r3,c3);
+                ^
+../src/second.c:53:16: warning: ‘c3’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/second.c
+ 
+Building target: second
+Invoking: GCC C Linker
+gcc  -o "second"  ./src/second.o   
+Finished building target: second
+ 
